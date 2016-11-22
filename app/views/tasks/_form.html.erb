@@ -1,0 +1,16 @@
+<%= form_for @task do |f| %>
+  <%= f.label :name %>:
+  <%= f.text_field :name %><br />
+
+  <%= f.label :description %>:
+  <%= f.text_field :description %><br />
+
+  <%= f.label :owner %>:
+  <%= f.text_field :owner %><br />
+
+  <%= f.label :done %>:
+  <%= f.text_field :done %><br />
+
+
+  <%= f.submit %>
+<% end %>
